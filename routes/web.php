@@ -21,9 +21,11 @@ Route::get('/identification', function () {
 Route::post('/identification', 'identification@submit');
 Route::get('/identification/{taskHash}', 'identification@getResult');
 
-Route::get('/browser', function () {
-    return view('browser');
-});
+//Route::get('/browser', function () {
+//    return view('browser');
+//});
+Route::get('/browser','BrowseController@browse');
+
 Route::post('/browser','browser@search');
 
 Route::get('/download', function () {

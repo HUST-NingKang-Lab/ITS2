@@ -18,3 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('/identification/{taskHash}', 'identification@getResult');
+Route::get('/browse','BrowseController@browse');

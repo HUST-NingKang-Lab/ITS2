@@ -8,8 +8,8 @@
             <div>
                 <ul class="nav navbar-nav">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/identification">Identification</a></li>
-                    <li><a href="/browser">Browser</a></li>
+                    <li><a href="/identification">Search</a></li>
+                    <li><a href="/browser">Browse</a></li>
                     <li><a href="/help">Help</a></li>
                     <li class="active"><a href="/contact">Contact</a></li>
                 </ul>

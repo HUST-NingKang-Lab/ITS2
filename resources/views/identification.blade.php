@@ -8,8 +8,8 @@
             <div>
                 <ul class="nav navbar-nav">
                     <li><a href="/">Home</a></li>
-                    <li class="active"><a href="/identification">Identification</a></li>
-                    <li><a href="/browser">Browser</a></li>
+                    <li class="active"><a href="/identification">Search</a></li>
+                    <li><a href="/browser">Browse</a></li>
                     <li><a href="/help">Help</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
@@ -42,10 +42,10 @@
                             <div id="datasetChoose">
                                 <label for="name">Species</label>
                                 <label class="checkbox-inline">
-                                    <input type="radio" name="speciesRadio" id="optionsRadios3" value="Animal" checked> Animal
+                                    <input type="radio" name="speciesRadio" id="optionsRadios3" value="Animal" disabled="disabled"> Animal
                                 </label>
                                 <label class="checkbox-inline">
-                                    <input type="radio" name="speciesRadio" id="optionsRadios4" value="Plant"> Plant
+                                    <input type="radio" name="speciesRadio" id="optionsRadios4" value="Plant" checked> Plant
                                 </label>
                                 <br>
                                 <label for="name">Database</label>
@@ -53,13 +53,13 @@
                                     <input type="radio" name="databaseRadio" value="ITS2" checked> ITS2
                                 </label>
                                 <label class="checkbox-inline">
-                                    <input type="radio" name="databaseRadio" value="matK"> matK
+                                    <input type="radio" name="databaseRadio" value="matK" disabled="disabled"> matK
                                 </label>
                                 <label class="checkbox-inline">
-                                    <input type="radio" name="databaseRadio" value="trnH-psbA"> trnH-psbA
+                                    <input type="radio" name="databaseRadio" value="trnH-psbA" disabled="disabled"> trnH-psbA
                                 </label>
                                 <label class="checkbox-inline">
-                                    <input type="radio" name="databaseRadio" value="rbcL"> rbcL
+                                    <input type="radio" name="databaseRadio" value="rbcL" disabled="disabled"> rbcL
                                 </label>
                             </div>
                         </div>
