@@ -28,7 +28,7 @@
         <div id="BLAST">
             <div class="row">
                 <div class="col-lg-12">
-                    <p>blast introduction</p>
+                    <p><strong>Basic Local Alignment Search Tool</strong></p>
                 </div>
                 <div class="col-lg-12">
                     <form role="form">
