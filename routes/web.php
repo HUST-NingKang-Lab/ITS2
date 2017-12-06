@@ -24,6 +24,7 @@ Route::get('/identification/{taskHash}', 'identification@getResult');
 Route::get('/browser', function () {
     return view('browser');
 });
+Route::post('/browser','browser@search');
 
 Route::get('/download', function () {
     return view('download');
