@@ -56,7 +56,7 @@ class identification extends Controller
                 Redis::hset($task_hash,'genus_pie',trim($genus_pie));
                 Redis::hset($task_hash,'species_abd',trim($species_abd));
                 Redis::hset($task_hash,'species_pie',trim($species_abd));
-                var_dump($identification_result);
+//                var_dump($identification_result);
             }
         });
 //        return JsonResponse::create([]);

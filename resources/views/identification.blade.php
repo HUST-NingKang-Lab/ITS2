@@ -29,6 +29,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p><strong>Basic Local Alignment Search Tool</strong></p>
+                    <p><a href="query_sample.fa" target="_blank" style="color: red">(query sample)</a></p>
                 </div>
                 <div class="col-lg-12">
                     <form role="form">
@@ -77,7 +78,7 @@
                                 <thead>
                                     <tr>
                                         <th>seq name</th>
-                                        <th>taxonomy</th>
+                                        <th>taxonomy(click to browse details)</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -98,7 +99,7 @@
                             </table>
                             <div id="genusPie"></div>
                         </div>
-                        <div id="species_abd">
+                        <div id="species_abd" style="margin-bottom: 50px">
                             <label for="name">Species Abundance</label>
                             <table class="table">
                                 <thead>

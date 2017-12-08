@@ -26,7 +26,7 @@
         <div class="container">
             <div class="row">
                 <form>
-                    <div class="col-lg-3 col-lg-offset-2">
+                    <div class="col-lg-4 col-lg-offset-1">
                         <div class="form-group">
                             <label for="">Species Types</label>
                             <select class="form-control" name="species">
@@ -35,7 +35,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <div class="form-group">
                             <label for="">Database</label>
                             <select class="form-control" name="database">
@@ -46,14 +46,14 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-lg-offset-2">
+                    <div class="col-lg-8 col-lg-offset-1">
                         <div class="form-group">
                             <label for="">Species Name</label>
                             <input name="speciesName" class="form-control" id="" placeholder=""
                                    value="{{ $speciesName }}">
                         </div>
                     </div>
-                    <div class="col-lg-6 col-lg-offset-2">
+                    <div class="col-lg-6 col-lg-offset-1">
                         <input class="btn btn-default" type="submit" value="Submit" id="submitBtn">
                     </div>
                 </form>

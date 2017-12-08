@@ -27,7 +27,7 @@ $("#submitBtn").click(function() {
         function(data) {
             onSearchStatusChange("searching");
             taskHash = data;
-            interval = setInterval(function() { queryResult(taskHash) }, 10000);
+            interval = setInterval(function() { queryResult(taskHash) }, 5000);
         });
 
 });
@@ -44,7 +44,7 @@ function queryResult(taskHash) {
                 $("div#identification_result>table>tbody").html("");
                 $.each(JSON.parse(data.identification_result), function(i, item) {
                     $("<tr></tr>").append("<td>" + item.seq_name + "</td>")
-                        .append("<td>" + item.taxonomy + "</td>")
+                        .append("<td><a target='_blank' href=\"./browser?speciesName="+ item.taxonomy + "\">" + item.taxonomy + "</a></td>")
                         .appendTo($("div#identification_result>table>tbody"));
                 });
 
