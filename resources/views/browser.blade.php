@@ -66,12 +66,12 @@
                         <tbody>
                         @foreach ($items as $item)
                             <tr>
-                                <td style="font-weight: 100">
+                                <td style="font-weight: 400">
                                     {{$item->Id."."}} {{$item->taxonomy }}
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="col-lg-offset-1">
+                            <tr >
+                                <td class="col-lg-offset-1" style="max-width: 100px; word-wrap: break-word">
                                     {{ $item->seq }}
                                 </td>
                             </tr>
