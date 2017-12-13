@@ -24,3 +24,9 @@ $("#submitBtn").click(function() {
 	// return false;
 	// body...
 });
+
+$(function () {
+    $('[data-toggle="popover"]').popover({
+        container: 'body'
+	})
+})
