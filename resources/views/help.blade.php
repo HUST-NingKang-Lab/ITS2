@@ -19,7 +19,7 @@
 </nav>
 @stop @section('main')
 <link rel="stylesheet" type="text/css" href="css/help.css">
-<div class="main">
+<div class="main" style="margin-bottom: 50px;">
 <div class="container">
     <div class="row">
         <div class="col-lg-10 col-lg-offset-1">
@@ -36,6 +36,62 @@
             </p>
         </div>
     </div>
+    <div class="row">
+        <div class="col-lg-11 col-lg-offset-1">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="alert alert-info panel-title" style="font-weight: bold">Tutorial For Browse</h3>
+                </div>
+                <div class="panel-body" style="font-size: 18px; font-family: Arial">
+                    <ol>
+                        <li>
+                            Browse page provides the full access to our ITS2 databases, you can search and browse all the
+                            taxonomy and its sequences.
+                        </li>
+                        <li>
+                            You can choose different  <span class="badge">Species Type</span>  <span class="badge">Database</span>
+                            for search. leave the <span class="badge">Species Name</span> blank as default to browse all the data.
+                            <hr>
+                            <div>
+
+                            </div>
+                            <img class="img-thumbnail" src="/image/1513154212.png">
+
+                            <hr>
+                            <img class="img-thumbnail" src="/image/1513154756.png">
+                            <hr>
+                        </li>
+                        <li>
+                            Click <img src="./image/wikipedia.png" style="max-width: 22px;"> to view details of this taxonomy on wikipedia
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="alert alert-info panel-title" style="font-weight: bold">Tutorial For Search</h3>
+                </div>
+                <div class="panel-body" style="font-size: 18px; font-family: Arial">
+                    <ol>
+                        <li>
+                            Submit your own ITS2 seq in fasta format on Search page, and choose different data sets and
+                            algorithms to perform search
+                            <hr>
+                            <img class="img-thumbnail" src="image/1513158049.png">
+                            <hr>
+                        </li>
+                        <li>
+                            Wait for minutes, and the front end will show you the results, including species composition,
+                            and its abundance.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 </div>
 
 

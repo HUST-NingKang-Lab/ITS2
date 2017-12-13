@@ -48,7 +48,7 @@
                     <h3 class="col-lg-9">DNA barcode</h3>
                 </div>
                 <p>A standardized short sequence of DNA from a small region of an organism's genome that can differentiate the species from others.</p>
-                <p>For plants, the chosen and validated sequences are including ITS2, matK, rbcL, psbA-trnH etc. for the identification of plant species.<p>
+                <p>For plants, the chosen and validated sequences include ITS2, matK, rbcL, psbA-trnH etc. for the identification of plant species.<p>
             </div>
 <!--             <div class="col-lg-3 info-panel">
                 <div class="info-panel-head row">
@@ -62,7 +62,7 @@
                     <img src="image/statistics.png" class="col-lg-2">
                     <h3 class="col-lg-9">Statistics</h3>
                 </div>
-                <p>The current ITS2 dataset containing 157,937 processed entries of plant ITS2 sequences including: <br>
+                <p>The current ITS2 dataset contains 157,937 processed entries of plant ITS2 sequences including: <br>
                 2 phyla<br>
                 38 classes<br>
                 169 orders<br>
@@ -76,7 +76,7 @@
                     <img src="image/about.png" class="col-lg-2">
                     <h3 class="col-lg-9">About</h3>
                 </div>
-                <p>A taxonomy classification platform based on multiple DNA biomarkers and search engines hosted NingLab@HUST</p>
+                <p>A taxonomy classification platform based on multiple DNA biomarkers and search engines hosted at NingLab@HUST</p>
             </div>
         </div>
     </div>

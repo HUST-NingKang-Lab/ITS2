@@ -28,10 +28,10 @@ return [
 
     'connections' => [
         'production' => [
-             'host'      => '45.62.126.144:27966',
+             'host'      => 'proxy.ningkanglab.org:22',
 //            'host'      => '127.0.0.1',
             'username'  => 'its',
-            'password'  => 'its',
+            'password'  => 'lihj2515',
             'key'       => '',
             'keytext'   => '',
             'keyphrase' => '',

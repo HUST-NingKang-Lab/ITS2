@@ -62,7 +62,9 @@
                 <div id="main-content" class="col-lg-11 col-lg-offset-1 table-responsive">
                     <table class="table table-striped">
                         <thead>
-                        <th>Species Name & its ITS2 seq : {{ ($totalCount)  }} items, {{ ceil($totalCount/20) }}pages
+                        <hr>
+                        <th style="font-size: 20px;">Species Name & its ITS2 seq : {{ ($totalCount)  }} items, {{ ceil($totalCount/20) }}pages
+                        <hr>
                         </th>
                         </thead>
                         <tbody>
@@ -125,6 +127,11 @@
                             @endforeach
                         </ul>
                     </nav>
+
+                    <p style="font-size: 20px; font-weight: bold;">
+                        {{ ($totalCount)  }} items, {{ ceil($totalCount/20) }}pages
+                    </p>
+                    <hr>
                 </div>
             </div>
         </div>
