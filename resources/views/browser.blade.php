@@ -20,6 +20,8 @@
     </nav>
 @stop @section('main')
     <link rel="stylesheet" type="text/css" href="css/browse.css">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    {{--<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">--}}
     <script src="https://unpkg.com/vue"></script>
 
     <div class="main">
@@ -66,12 +68,28 @@
                         <tbody>
                         @foreach ($items as $item)
                             <tr>
-                                <td style="font-weight: 400">
-                                    {{$item->Id."."}} {{$item->taxonomy }}
+                                <td style="font-size: 15px">
+                                    {{$item->Id."."}}
+                                    {{--@php--}}
+                                        {{--$taxa = explode("|",$item->taxonomy);--}}
+                                        {{--foreach($taxa as $t){--}}
+                                            {{--$t = explode("__",$t)[1];--}}
+                                            {{--echo $t;--}}
+                                            {{----}}
+                                        {{--}--}}
+                                    {{--@endphp--}}
+                                    @foreach(explode("|",$item->taxonomy) as $taxa)
+                                        <a target="_blank" href="https://en.wikipedia.org/wiki/{{ explode("__",$taxa)[1] }}">
+                                            <img src="./image/wikipedia.png" style="max-width: 22px;">
+                                        </a>
+                                        {{ explode("__",$taxa)[1] }}
+                                        <span style="font-size: 20px;">/</span>
+                                    @endforeach
+{{--                                    {{$item->taxonomy }}--}}
                                 </td>
                             </tr>
                             <tr >
-                                <td class="col-lg-offset-1" style="max-width: 100px; word-wrap: break-word">
+                                <td class="col-lg-offset-1" style="font-family: monospace; font-size:13px; max-width: 100px; word-wrap: break-word">
                                     {{ $item->seq }}
                                 </td>
                             </tr>
