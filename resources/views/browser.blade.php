@@ -63,7 +63,7 @@
                     <table class="table table-striped">
                         <thead>
                         <hr>
-                        <th style="font-size: 20px;">Species Name & its ITS2 seq : {{ ($totalCount)  }} items, {{ ceil($totalCount/20) }}pages
+                        <th style="font-size: 20px;">Species Name and its ITS2 sequence : {{ number_format($totalCount)  }} items ({{ number_format(ceil($totalCount/20)) }}  pages)
                         <hr>
                         </th>
                         </thead>
