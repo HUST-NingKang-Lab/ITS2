@@ -71,7 +71,7 @@
                             </div>
                         </div>
                     </form>
-                    <div id="searchResult" style="display: none;">
+                    <div id="searchResult" style="display: none;" class="table-responsive">
                         <div id="identification_result">
                             <label for="name">Identification Result</label>
                             <table class="table">
