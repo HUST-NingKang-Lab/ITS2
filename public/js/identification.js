@@ -27,7 +27,7 @@ $("#submitBtn").click(function() {
         function(data) {
             onSearchStatusChange("searching");
             taskHash = data;
-            interval = setInterval(function() { queryResult(taskHash) }, 5000);
+            interval = setInterval(function() { queryResult(taskHash) }, 10000);
         });
 
 });
