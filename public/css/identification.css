@@ -71,7 +71,7 @@
     margin-top: 100px;
     display: block;
     background-color: rgb(242, 242, 242);
-    padding: 10px, 12px;
+    padding: 10px 12px;
     border-radius: 4px;
 }
 
@@ -81,7 +81,7 @@
     font-weight: bold;
     margin-left: 20px;
     /*margin-bottom: -10px;*/
-    margin-top: -10px;
+    /*margin-top: -10px;*/
     font-size: 20px;
     border: 1px solid black;
     padding: 2px 4px 2px 4px;
