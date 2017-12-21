@@ -26,7 +26,7 @@
         <h2><strong>Help</strong></h2>
             <h4><strong>Data source</strong></h4>
             <p>
-                Current ITS2 and other markers' datesets are fom NCBI nucleotide database.
+                Current ITS2 and other markers' datesets are automatically extracted and manually curated fom NCBI nucleotide database.
             </p>
             <br>
             <h4><strong>How to make a organism identification or taxonomy classification through Holmes-ITS2?</strong></h4>
@@ -44,6 +44,7 @@
                 </div>
                 <div class="panel-body" style="font-size: 18px; font-family: Arial">
                     <ol>
+                        <img class="img-thumbnail" src="/image/its.png">
                         <li>
                             Browse page provides the full access to our ITS2 databases, you can search and browse all the
                             taxonomy and its sequences.
@@ -82,7 +83,7 @@
                             <hr>
                         </li>
                         <li>
-                            Wait for minutes, and the front end will show you the results, including species composition,
+                            Wait for a while, and the front end will show you the results, including species composition,
                             and its abundance.
                         </li>
                     </ol>
