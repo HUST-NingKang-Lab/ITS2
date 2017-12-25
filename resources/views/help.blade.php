@@ -34,17 +34,20 @@
                 As multiple search engines and nucleotide biomarkers are available, just paste a/multiple fasta sequence(s) into the input field,
                 choose proper search engine and reference sequence database and click search. Each batch of submission will be considered as a sample. Classification and statistics result will be shown below including sequence taxonomy table and statistics table.
             </p>
+            <img class="img-thumbnail" src="/image/its.png">
+            <p>The whole workflow of the Holmes-ITS2 system including database, web service and search engines. <span style="font-weight: bold">(A)</span> Raw ITS2 sequences obtained from NCBI, target sequence extraction and sequence quality filtration. <span style="font-weight: bold">(B)</span> Database refinement by metagenomic sample clustering and representative ITS2 sequence selection. <span style="font-weight: bold">(C)</span> The refined ITS2 database. <span style="font-weight: bold">(D)</span> Interactive web service with (E) multiple search engines enabled.</p>
+            <br>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-11 col-lg-offset-1">
+        <div class="col-lg-10 col-lg-offset-1">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="alert alert-info panel-title" style="font-weight: bold">Tutorial For Browse</h3>
                 </div>
                 <div class="panel-body" style="font-size: 18px; font-family: Arial">
                     <ol>
-                        <img class="img-thumbnail" src="/image/its.png">
+
                         <li>
                             Browse page provides the full access to our ITS2 databases, you can search and browse all the
                             taxonomy and its sequences.
@@ -85,6 +88,12 @@
                         <li>
                             Wait for a while, and the front end will show you the results, including species composition,
                             and its abundance.
+                            <hr>
+                            <img class="img-thumbnail" src="image/6.png">
+                            <hr>
+                            <img class="img-thumbnail" src="image/4.png">
+
+
                         </li>
                     </ol>
                 </div>
